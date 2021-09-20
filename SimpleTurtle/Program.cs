@@ -12,7 +12,6 @@ namespace SimpleTurtle
 
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
             var rowLength = Console.WindowWidth;
             _myCol = rowLength / 2;
             _myRow = Console.WindowHeight / 2;
